@@ -34,6 +34,7 @@ for ($i = 0; $i < $days; $i++) {
     echo 'name, sellIn, quality' . PHP_EOL;
     foreach ($items as $item) {
         echo $item . PHP_EOL;
+        echo "--------------------------\n";
     }
     echo PHP_EOL;
     $app->updateQuality();
